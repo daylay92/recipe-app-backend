@@ -1,4 +1,4 @@
-https://travis-ci.org/daylay92/recipe-app-backend.svg?branch=master
+[![Build Status](https://travis-ci.org/daylay92/recipe-app-backend.svg?branch=master)](https://travis-ci.org/daylay92/recipe-app-backend)
 
 ---------
 
