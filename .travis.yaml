@@ -1,0 +1,16 @@
+language: python
+python:
+  - 3.7
+  - 3.8
+services:
+  - postgresql
+
+before_script:
+  - psql -c "CREATE DATABASE testing_db;" -U postgres
+  - pip install -r ./requirements.txt
+
+script:
+  - "python manage.py test && flake8"
+
+notifications:
+  email: false

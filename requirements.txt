@@ -2,3 +2,4 @@ Django>=3.1.0,<3.2.0
 markdown>=3.0.0
 django-filter>=1.0.1
 djangorestframework
+flake8
