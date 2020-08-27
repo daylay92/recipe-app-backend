@@ -1,12 +1,12 @@
 [flake8]
 exclude =
     migrations,
-    /app/settings.py,
+    app/settings.py,
     .git,
     __pycache__,
     docs/source/conf.py,
     old,
     build,
     dist
-    
+
 max-complexity = 10
